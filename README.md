@@ -3,8 +3,8 @@
 This project provides a library implementation that can be used for distributed computing.
 There are two different possibilities of achieving this:
 
-1.) Single-machine execution (see `ThreadPool` class)
-2.) Multi-machine execution (see `ServerPool` class)
+1. Single-machine execution (see `ThreadPool` class)
+2. Multi-machine execution (see `ServerPool` class)
 
 With `ThreadPool` function can be directly scheduled in a thread pool and the results of the
 functions are available via a `std::future` object.
