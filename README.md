@@ -14,3 +14,4 @@ and the worker servers via serialized data packages (see `DataPackagePayload`). 
 data package is, again, available via a `std::future` object. Alternatively, the `ServerPool` 
 class defines a `OnTaskCompleted` method that can be overwritten.
 
+In it's current implementation it only works on Linux.
